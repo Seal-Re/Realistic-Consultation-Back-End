@@ -1,0 +1,325 @@
+2025-04-08 12:15:36,380 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 12:15:36,380 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:15:36,382 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:15:37,922 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 12:15:37,926 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 12:15:39,532 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:39] "GET / HTTP/1.1" 200 -
+2025-04-08 12:15:43,605 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:15:43] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:17:00,872 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:17:00] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:17:03,183 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:17:03] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A请描述您的症状（如部位、持续时间、严重程度等）及相关病史信息 HTTP/1.1" 200 -
+2025-04-08 12:17:03,367 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:17:03] "[33mGET /tts/test.mp3?v=1744085823186 HTTP/1.1[0m" 404 -
+2025-04-08 12:18:41,750 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:18:41] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:19:01,584 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:19:01] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:19:04,234 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:19:04] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A如需医疗咨询，请用文字具体描述：%20%20%0A1.%20不适症状及持续时间(例：咳嗽三天)%20%20%0A2.%20部位/性质(例：右腹部阵发性绞痛)%20%20%0A3.%20加重因素(例：进食后加剧)%20%20%0A4.%20既往病史%26用药史 HTTP/1.1" 200 -
+2025-04-08 12:19:04,310 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:19:04] "[33mGET /tts/test.mp3?v=1744085944236 HTTP/1.1[0m" 404 -
+2025-04-08 12:22:06,374 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\MongoBase.py', reloading
+2025-04-08 12:22:06,456 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:22:08,191 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 12:22:08,194 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 12:24:44,796 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\utils.py', reloading
+2025-04-08 12:24:44,877 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:36:31,762 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 12:36:31,763 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:36:31,764 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:36:33,397 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 12:36:33,401 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 12:36:46,950 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:36:46] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:37:12,832 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:37:12] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:37:17,395 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:37:17] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A初步诊疗方案：%0A1.%20休息：停止当前活动，保持环境安静。%0A2.%20补水：确保500ml温水摄入（小口慢饮）。%0A3.%20药物干预（可选）：%0A%20%20%20-%20布洛芬200-400mg口服（12岁以上适用）%0A%20%20%20-%20对乙酰氨基酚500mg口服%0A4.%20冷敷：使用冰袋包裹毛巾置于前额10分钟/小时。%0A5.%20监测关键指标：%0A%20%20%20*%20体温（每小时测量1次）%0A%20%20%20*%20血压（有条件时检测）%0A%0A警戒症状（出现立即就医）：%0A■呕吐呈喷射状%20%0A■意识模糊或言语障碍%0A■视物重影/肢体麻木%20%0A■颈项强直伴随高热%0A%0A建议4小时内未缓解需神经内科就诊。 HTTP/1.1" 200 -
+2025-04-08 12:37:17,480 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:37:17] "[33mGET /tts/test.mp3?v=1744087037397 HTTP/1.1[0m" 404 -
+2025-04-08 12:38:31,572 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:38:31] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:38:55,949 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:38:55] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:39:01,138 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:39:01] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A初步诊疗方案：%0A1.%20止痛措施（二选一）:%0A%20%20%20-%20布洛芬200mg口服（餐后）%0A%20%20%20-%20对乙酰氨基酚500mg口服%0A2.%20环境调整：%20%0A%20%20%20•%20调暗室内光线至150-300流明%20%0A%20%20%20•%20保持室温22℃±1%0A3.%20体位管理：%0A%20%20%20取45度半卧位，颈椎垫软支撑%0A4.%20局部处理：%0A%20%20%20冷热交替敷法（前额冰袋与颈后温热毛巾每10分钟轮换）%0A%0A需排除的警戒体征：%0A‼太阳穴搏动性疼痛伴咀嚼痛%20%0A‼新发头痛且年龄＞50岁%20%0A‼24小时内止痛无效的持续钝痛%20%0A%0A推荐茶饮配方：%0A██%20薄荷叶3片%20%2B%20鲜姜薄切2片%20%2B%20蜂蜜5ml（300ml温水冲泡） HTTP/1.1" 200 -
+2025-04-08 12:39:38,600 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:39:38] "[33mGET /tts/test.mp3?v=1744087141145 HTTP/1.1[0m" 404 -
+2025-04-08 12:45:16,654 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\test.py', reloading
+2025-04-08 12:45:16,740 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:49:49,457 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 12:49:49,458 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:49:49,459 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:49:51,052 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 12:49:51,057 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 12:50:07,626 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:50:07] "[33mGET /tts/test.mp3?v=1744087141145 HTTP/1.1[0m" 404 -
+2025-04-08 12:50:10,384 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:50:10] "[33mGET /tts/test.mp3?v=1744087141145 HTTP/1.1[0m" 404 -
+2025-04-08 12:50:22,851 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:50:22] "[33mGET /tts/test.mp3?v=174408714114 HTTP/1.1[0m" 404 -
+2025-04-08 12:50:25,417 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:50:25] "[33mGET /tts/test.mp3?v=1 HTTP/1.1[0m" 404 -
+2025-04-08 12:51:16,507 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\audio.py', reloading
+2025-04-08 12:51:16,599 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:53:00,039 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 12:53:00,039 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 12:53:00,041 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 12:53:01,786 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 12:53:01,790 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 12:53:04,157 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:53:04] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:53:38,446 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:53:38] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:53:42,336 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:53:42] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A初步诊断：紧张性头痛可能%20%20%0A建议治疗：%0A1.%20休息，确保充足睡眠%0A2.%20局部热敷/按摩太阳穴及颈肩部%0A3.%20口服布洛芬400mg(饭后)或对乙酰氨基酚500-1000mg%0A4.%20监测血压（如可测量）%0A5.%20补充水分并观察48小时%0A%0A需立即就诊的情况：%0A■%20出现喷射状呕吐%20%20%0A■%20肢体麻木/视物重影%20%20%0A■%20高烧超过39℃ HTTP/1.1" 200 -
+2025-04-08 12:53:42,430 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:53:42] "[33mGET /tts/test.mp3?v=1744088022338 HTTP/1.1[0m" 404 -
+2025-04-08 12:55:33,897 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:55:33] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 12:55:55,857 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:55:55] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 12:55:58,680 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:55:58] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A（请具体说明以下情况：）%0A1.%20疼痛部位(全头/单侧)及性质(胀痛/跳痛等)%0A2.%20发作频率和持续时间%0A3.%20伴随症状(恶心/畏光等)%0A4.%20加重缓解因素%0A%0A临时建议：%0A■%20避免强光和噪音刺激%20%20%0A■%20饮用电解质饮料补充水分 HTTP/1.1" 200 -
+2025-04-08 12:55:58,766 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 12:55:58] "[33mGET /tts/test.mp3?v=1744088158681 HTTP/1.1[0m" 404 -
+2025-04-08 13:01:17,428 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\__init__.py', reloading
+2025-04-08 13:01:17,514 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:01:19,251 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:01:19,256 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:01:34,349 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\__init__.py', reloading
+2025-04-08 13:01:34,428 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:01:36,053 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:01:36,058 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:01:45,102 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\__init__.py', reloading
+2025-04-08 13:01:45,185 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:01:46,974 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:01:46,980 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:01:55,806 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 13:01:55,806 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 13:01:55,807 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:01:57,537 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:01:57,543 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:01:58,931 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:01:58] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 13:02:12,933 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:02:12] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 13:02:15,926 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:02:15] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A诊断：可能性包括紧张性头痛%20%20%0A治疗方案：%0A1.%20服用止痛药物（如布洛芬400mg口服，每6小时一次，最多3天）%0A2.%20适量饮水保持水分%0A3.%20冷敷前额10-15分钟%0A4.%20保证充足休息和睡眠%0A5.%20监测症状变化：若出现呕吐、视力改变或高热立即就医 HTTP/1.1" 200 -
+2025-04-08 13:02:16,006 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:02:16] "[33mGET /tts/test.mp3?v=1744088535928 HTTP/1.1[0m" 404 -
+2025-04-08 13:03:00,543 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:03:00] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 13:03:14,832 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:03:14] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 13:03:17,743 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:03:17] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A诊断建议：%0A请回答以下问题以完善病史信息：'%0A1.%20首次发作时间与持续时长？%0A2.%20具体疼痛部位及性质？'%0A3.%20是否伴有恶心/畏光等症状？'%0A4.%20既往是否有类似头痛史？%0A%0A基本处置原则暂同前方案。请补充上述资料后重新提交 HTTP/1.1" 200 -
+2025-04-08 13:03:17,829 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:03:17] "[33mGET /tts/test.mp3?v=1744088597746 HTTP/1.1[0m" 404 -
+2025-04-08 13:08:06,529 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\__init__.py', reloading
+2025-04-08 13:08:06,627 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:08:08,273 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:08:08,278 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:08:13,058 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 13:08:13,059 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 13:08:13,060 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 13:08:14,909 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 13:08:14,915 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-08 13:08:14,924 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:08:14] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 13:08:32,221 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:08:32] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 13:08:35,562 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:08:35] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A初步诊断：紧张性头痛可能%20%20%0A治疗方案：%0A1.%20休息于安静环境中，冷敷前额15分钟%0A2.%20口服布洛芬400mg（饭后），24小时内不超过1200mg'%0A3.%20按摩太阳穴及颈肩肌肉群'%0A4.%20每日饮水量保持2000ml以上'%0A%0A需立即就诊情况：%20%0A若出现呕吐/视力模糊/高烧39℃%2B/颈部僵硬，请1小时内急诊'%20%20%0A三天未缓解建议神经内科就诊 HTTP/1.1" 200 -
+2025-04-08 13:08:35,740 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 13:08:35] "[35m[1mGET /tts/test.mp3?v=1744088915564 HTTP/1.1[0m" 206 -
+2025-04-08 14:14:23,575 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 14:14:23,575 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 14:14:23,578 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 14:14:25,735 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 14:14:25,746 - werkzeug - INFO -  * Debugger PIN: 120-902-270
+2025-04-08 14:15:32,123 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-08 14:15:32,123 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-08 14:15:32,125 - werkzeug - INFO -  * Restarting with stat
+2025-04-08 14:15:33,813 - werkzeug - WARNING -  * Debugger is active!
+2025-04-08 14:15:33,820 - werkzeug - INFO -  * Debugger PIN: 120-902-270
+2025-04-08 14:16:44,000 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 14:16:44] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-08 14:18:09,028 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 14:18:09] "POST /api/AI HTTP/1.1" 200 -
+2025-04-08 14:18:15,016 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 14:18:15] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=%0A%0A可能的诊断：%0A-%20紧张性头痛%0A-%20偏头痛%0A-%20血压异常升高%0A-%20睡眠不足引起代偿反应%0A建议检查：%0A1.%20测量基础生命体征（体温/血压）%0A2.%20进行神经学体检%0A3.%20必要时安排头部CT/MRI扫描%0A初步处理措施：%0A-%20可服用对乙酰氨基酚500mg（24小时内不超过4000mg）%0A-%20用冷敷袋敷于前额15分钟%0A-%20保证每日饮水量≥2000ml%0A需警戒症状：%0A如果出现以下任一情况立即就诊：%0A■%20突发剧烈头痛伴呕吐%0A■%20神志改变或肢体无力%0A■%20视觉异常/复视 HTTP/1.1" 200 -
+2025-04-08 14:18:15,277 - werkzeug - INFO - 127.0.0.1 - - [08/Apr/2025 14:18:15] "[35m[1mGET /tts/test.mp3?v=1744093095019 HTTP/1.1[0m" 206 -
+2025-04-10 18:42:15,210 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-10 18:42:15,211 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-10 18:42:15,212 - werkzeug - INFO -  * Restarting with stat
+2025-04-10 18:42:16,856 - werkzeug - WARNING -  * Debugger is active!
+2025-04-10 18:42:16,860 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-10 18:42:23,603 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 18:42:23] "[31m[1mGET /api/AI HTTP/1.1[0m" 405 -
+2025-04-10 18:45:11,611 - werkzeug - INFO - 127.0.0.1 - - [10/Apr/2025 18:45:11] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 15:49:15,231 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 15:49:15,231 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 15:49:15,232 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:49:17,524 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:49:17,528 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:49:36,349 - root - ERROR - Error calling Gemini API: module 'google.genai.types' has no attribute 'ContentPart'
+2025-04-16 15:49:36,350 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:49:36] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 15:50:16,785 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 15:50:17,001 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:50:19,286 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:50:19,289 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:50:19,300 - root - ERROR - Error calling Gemini API: 'Client' object has no attribute 'generate_content'
+2025-04-16 15:50:19,301 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:50:19] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 15:50:27,170 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 15:50:27,170 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 15:50:27,172 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:50:29,526 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:50:29,529 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:50:29,536 - root - ERROR - Error calling Gemini API: 'Client' object has no attribute 'generate_content'
+2025-04-16 15:50:29,536 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:50:29] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 15:51:26,745 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 15:51:26,916 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:55:01,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 15:55:01,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 15:55:01,084 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:55:02,263 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:55:02,267 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:58:30,923 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 15:58:38,201 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 15:58:38,201 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 15:58:38,202 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:58:39,677 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:58:39,681 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:58:42,136 - root - ERROR - Error calling DeepSeek API: Error code: 503 - {'error': {'message': 'server busy, please try again.  maximum pending requests exceeded', 'type': 'api_error', 'param': None, 'code': None}}
+2025-04-16 15:58:42,136 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:58:42] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 15:58:57,873 - root - ERROR - Error calling DeepSeek API: Error code: 503 - {'error': {'message': 'server busy, please try again.  maximum pending requests exceeded', 'type': 'api_error', 'param': None, 'code': None}}
+2025-04-16 15:58:57,873 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:58:57] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 15:59:14,196 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 15:59:14,196 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 15:59:14,197 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:59:15,636 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:59:15,640 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:59:21,666 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\AIBase.py', reloading
+2025-04-16 15:59:21,767 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 15:59:23,297 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 15:59:23,300 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 15:59:24,963 - root - ERROR - Error calling DeepSeek API: Error code: 503 - {'error': {'message': 'server busy, please try again.  maximum pending requests exceeded', 'type': 'api_error', 'param': None, 'code': None}}
+2025-04-16 15:59:24,963 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 15:59:24] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:04:30,593 - root - ERROR - Error calling DeepSeek API: Error code: 503 - {'error': {'message': 'server busy, please try again.  maximum pending requests exceeded', 'type': 'api_error', 'param': None, 'code': None}}
+2025-04-16 16:04:30,593 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:04:30] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:07:30,013 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\AIBase.py', reloading
+2025-04-16 16:07:30,107 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:07:31,655 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:07:31,660 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:07:54,736 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:07:54,833 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:07:56,403 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:07:56,407 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:07:56,892 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'Model Not Exist', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:07:56,892 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:07:56] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:09:31,471 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'Model Not Exist', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:09:31,472 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:09:31] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:10:28,970 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:10:29,066 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:10:30,543 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:10:30,547 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:10:43,504 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:10:43] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:13:47,138 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:13:47,228 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:13:48,706 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:13:48,709 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:14:17,554 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:14:17] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:15:01,932 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:15:02,019 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:15:03,459 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:15:03,463 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:15:31,569 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:15:31] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:17:58,974 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:17:59,066 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:18:00,481 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:18:00,485 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:18:13,684 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-16 16:18:13,684 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-16 16:18:13,685 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:18:15,172 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:18:15,176 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:18:39,936 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:18:39] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:19:53,489 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:19:53,583 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:19:55,062 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:19:55,066 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:20:18,694 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:20:18] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:25:03,585 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:25:03] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:25:04,165 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'The reasoning_content is an intermediate result for display purposes only and will not be included in the context for inference. Please remove the reasoning_content from your message to reduce network traffic.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:25:04,165 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:25:04] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:25:36,231 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:25:36] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:25:36,373 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'The reasoning_content is an intermediate result for display purposes only and will not be included in the context for inference. Please remove the reasoning_content from your message to reduce network traffic.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:25:36,373 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:25:36] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:33:11,325 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:33:11] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:33:11,478 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'The reasoning_content is an intermediate result for display purposes only and will not be included in the context for inference. Please remove the reasoning_content from your message to reduce network traffic.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:33:11,478 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:33:11] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:33:16,366 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'The reasoning_content is an intermediate result for display purposes only and will not be included in the context for inference. Please remove the reasoning_content from your message to reduce network traffic.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:33:16,366 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:33:16] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:36:21,617 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:36:21,715 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:36:23,239 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:36:23,243 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:36:25,303 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:25] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:36:27,394 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:27] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:36:27,563 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'deepseek-reasoner does not support successive user or assistant messages (messages[1] and messages[2] in your input). You should interleave the user/assistant messages in the message sequence.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:36:27,563 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:27] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:36:39,931 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'deepseek-reasoner does not support successive user or assistant messages (messages[1] and messages[2] in your input). You should interleave the user/assistant messages in the message sequence.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 16:36:39,931 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:39] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 16:36:52,859 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:52] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:36:56,114 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:36:56] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=1.%20休息并多喝水，保持室内空气流通'%0A2.%20用冷敷袋敷额头15分钟，每小时重复一次'%0A3.%20可服用布洛芬（400mg）或对乙酰氨基酚（500mg），24小时内不超过3次'%0A4.%20若出现以下情况立即就医：'%0A%20%20%20-%20头痛持续超过48小时'%0A%20%20%20-%20伴随高烧/呕吐/意识模糊'%0A%20%20%20-%20头部外伤后出现的头痛'%0A5.%20避免咖啡因摄入，保持规律作息' HTTP/1.1" 200 -
+2025-04-16 16:38:39,770 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 16:38:39,936 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 16:38:41,357 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 16:38:41,361 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 16:38:50,699 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:38:50] "[35m[1mGET /tts/test.mp3?v=1744792616116 HTTP/1.1[0m" 206 -
+2025-04-16 16:39:07,319 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:39:07] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 16:39:07,730 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:39:07] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:39:25,230 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:39:25] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 16:39:28,169 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:39:28] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=建议您先增加水分摄入，观察1-2天。每日饮用温水或淡盐水6-8杯（每杯200ml），避免含糖饮料。若出现以下情况请立即就医：'%0A1.%20持续口渴伴尿量异常增多'%0A2.%20口干伴随皮肤弹性差/头晕'%0A3.%20持续发热或体重下降'%0A注意保持环境湿度40%25-60%25，避免长时间空调环境。' HTTP/1.1" 200 -
+2025-04-16 16:39:28,254 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 16:39:28] "[35m[1mGET /tts/test.mp3?v=1744792768171 HTTP/1.1[0m" 206 -
+2025-04-16 17:06:43,798 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:06:43] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 17:06:44,323 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'deepseek-reasoner does not support successive user or assistant messages (messages[2] and messages[3] in your input). You should interleave the user/assistant messages in the message sequence.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 17:06:44,323 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:06:44] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 17:08:32,869 - root - ERROR - Error calling DeepSeek API: Error code: 400 - {'error': {'message': 'deepseek-reasoner does not support successive user or assistant messages (messages[2] and messages[3] in your input). You should interleave the user/assistant messages in the message sequence.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-04-16 17:08:32,869 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:08:32] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-16 17:09:00,036 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 17:09:00,134 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 17:09:01,686 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 17:09:01,690 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 17:09:25,418 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:09:25] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 17:10:35,985 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-16 17:10:36,076 - werkzeug - INFO -  * Restarting with stat
+2025-04-16 17:10:37,489 - werkzeug - WARNING -  * Debugger is active!
+2025-04-16 17:10:37,493 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-16 17:11:00,039 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:11:00] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 17:11:17,820 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:11:17] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 17:11:21,781 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:11:21] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=你好！根据你的描述，昏昏沉沉可能与以下情况有关：%20%20%0A1.%20睡眠不足或睡眠质量差：建议调整作息，保证每晚7-8小时睡眠。%20%20%0A2.%20贫血或低血糖：尝试规律饮食，适当补充含铁食物（如瘦肉、菠菜）或少量多餐避免饥饿。%20%20%0A3.%20脱水或缺乏运动：每天喝够8杯水，适当散步或轻度活动。%20%20%0A4.%20压力过大或情绪波动：尝试深呼吸、冥想，或与亲友倾诉放松心情。%20%20%0A%0A如果症状持续超过1周，或伴随头晕、心悸、体重变化等，建议尽快到附近医院检查血常规、血糖或甲状腺功能。%20%20%0A好好照顾自己，别太担心！有变化随时告诉我哦~ HTTP/1.1" 200 -
+2025-04-16 17:11:21,978 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:11:21] "[35m[1mGET /tts/test.mp3?v=1744794681783 HTTP/1.1[0m" 206 -
+2025-04-16 17:13:42,690 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:13:42] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 17:14:11,073 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:14:11] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 17:14:14,703 - root - ERROR - 创建音频失败: Command '['edge-tts', '--voice', 'zh-CN-XiaoxiaoNeural', '--text', '根据你的症状，常见可能性及建议如下：  \n1. 多喝温水或温蜂蜜水缓解喉咙刺激，避免冷饮、辛辣食物。  \n2. 用淡盐水漱口（1杯温水+半茶匙盐），每天3-4次减轻喉咙肿痛。  \n3. 适当含服润喉糖（如含薄荷或蜂蜜成分），但勿给幼儿使用。  \n4. 若干咳严重，可尝试蒸汽吸入（对热水深呼吸，注意防烫伤）。  \n\n需警惕的情况：  \n- 发烧超过38.5℃、呼吸急促、咳黄绿色痰  \n- 喉咙痛持续加重或出现吞咽困难  \n- 症状超过10天无改善  \n\n如有以上情况，请及时到诊所检查咽喉/肺部。好好休息，早日康复！', '--write-media', 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End/tts/test.mp3']' returned non-zero exit status 1.
+2025-04-16 17:14:14,704 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:14:14] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=根据你的症状，常见可能性及建议如下：%20%20%0A1.%20多喝温水或温蜂蜜水缓解喉咙刺激，避免冷饮、辛辣食物。%20%20%0A2.%20用淡盐水漱口（1杯温水%2B半茶匙盐），每天3-4次减轻喉咙肿痛。%20%20%0A3.%20适当含服润喉糖（如含薄荷或蜂蜜成分），但勿给幼儿使用。%20%20%0A4.%20若干咳严重，可尝试蒸汽吸入（对热水深呼吸，注意防烫伤）。%20%20%0A%0A需警惕的情况：%20%20%0A-%20发烧超过38.5℃、呼吸急促、咳黄绿色痰%20%20%0A-%20喉咙痛持续加重或出现吞咽困难%20%20%0A-%20症状超过10天无改善%20%20%0A%0A如有以上情况，请及时到诊所检查咽喉/肺部。好好休息，早日康复！ HTTP/1.1" 200 -
+2025-04-16 17:18:26,246 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:18:26] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 17:18:57,121 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:18:57] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 17:19:01,584 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:19:01] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=头痛、头晕可能与以下原因有关：%20%20%0A1.%20用冷毛巾敷额头或后颈10分钟，闭眼休息避免强光刺激。%20%20%0A2.%20轻度脱水或饥饿易引发不适，及时补充水分及易消化食物（如粥、香蕉）。%20%20%0A3.%20避免突然起身，改变姿势时动作放缓（尤其久坐/久卧后）。%20%20%0A4.%20若疼痛明显，可按说明书短期服用止痛药（如布洛芬），但勿空腹服用。%20%20%0A%0A需警惕的情况：%20%20%0A-%20头痛剧烈伴随呕吐、视力模糊或意识不清%20%20%0A-%20头晕持续超过3天或出现耳鸣、听力下降%20%20%0A-%20近期有头部碰撞史%20%20%0A%0A如有上述情况，请立即就医检查血压、神经系统或耳鼻喉状况。保持环境安静，别硬撑哦！ HTTP/1.1" 200 -
+2025-04-16 17:19:01,677 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:19:01] "[35m[1mGET /tts/test.mp3?v=1744795141588 HTTP/1.1[0m" 206 -
+2025-04-16 17:21:19,818 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:21:19] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-16 17:21:44,820 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:21:44] "POST /api/AI HTTP/1.1" 200 -
+2025-04-16 17:21:49,131 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:21:49] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=咳嗽、喉咙痛时可尝试以下方法：%20%20%0A1.%20保持喉咙湿润：小口喝温水、含服蜂蜜（1岁以上适用）或含凉润喉糖缓解干痒。%20%20%0A2.%20用加湿器增加空气湿度（湿度保持在40-60%25），避免空调直吹。%20%20%0A3.%20避免吸烟/二手烟，暂停辛辣、油炸等刺激性食物。%20%20%0A4.%20若痰多难咳，可轻拍背部帮助排痰（手掌空心从下往上拍）。%20%20%0A%0A注意观察：%20%20%0A-%20夜间是否咳到坐起或憋醒%20%20%0A-%20是否出现胸痛、喘息声或痰中带血%20%20%0A-%20喉咙是否有白色斑点或肿胀加剧%20%20%0A%0A若3天后仍无缓解，建议到社区医院进行咽拭子或胸片检查。记得按时吃饭，恢复期免疫力需要营养支持~ HTTP/1.1" 200 -
+2025-04-16 17:21:49,236 - werkzeug - INFO - 127.0.0.1 - - [16/Apr/2025 17:21:49] "[35m[1mGET /tts/test.mp3?v=1744795309134 HTTP/1.1[0m" 206 -
+2025-04-23 19:48:25,116 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-23 19:48:25,116 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-23 19:48:25,117 - werkzeug - INFO -  * Restarting with stat
+2025-04-23 19:48:26,089 - werkzeug - WARNING -  * Debugger is active!
+2025-04-23 19:48:26,093 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-23 19:51:21,481 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:51:21] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-23 19:51:46,824 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:51:46] "POST /api/AI HTTP/1.1" 200 -
+2025-04-23 19:51:50,556 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:51:50] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=根据您的症状，初步考虑为普通感冒或上呼吸道感染。建议：%0A1.%20每日多次用温盐水漱口（半茶匙盐%2B250ml温水）%0A2.%20服用蜂蜜（成人每次1-2茶匙，儿童1岁以上适用）%0A3.%20多喝温水，保持喉咙湿润%0A4.%20可短期使用润喉糖缓解疼痛%0A5.%20如咳嗽影响睡眠，可睡前服用右美沙芬止咳糖浆%0A6.%20若出现发热超过38.5℃、呼吸困难或症状持续超过5天，请及时就医%0A%0A请注意保持室内空气湿润，避免刺激性食物。祝您早日康复！ HTTP/1.1" 200 -
+2025-04-23 19:55:30,692 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 19:55:30] "[35m[1mGET /tts/test.mp3?v=1745409110561 HTTP/1.1[0m" 206 -
+2025-04-23 20:43:57,951 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:43:57] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-23 20:44:30,735 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:44:30] "POST /api/AI HTTP/1.1" 200 -
+2025-04-23 20:44:34,411 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:44:34] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=根据您的症状，建议：%0A1.%20用温盐水漱口（半茶匙盐%2B200ml温水）每天4-5次%0A2.%20饮用蜂蜜柠檬温水（1岁以下婴儿禁用蜂蜜）%0A3.%20使用加湿器保持空气湿度40%25-60%25%0A4.%20避免冷饮和辛辣食物%0A5.%20可选用含薄荷成分的润喉糖%0A6.%20若夜间咳嗽剧烈，垫高枕头入睡%0A7.%20出现黄绿色痰液、持续发热或呼吸急促请立即就诊%0A%0A请保证充足休息，减少说话频率。恢复期间请避免接触烟尘刺激物。 HTTP/1.1" 200 -
+2025-04-23 20:44:34,438 - werkzeug - INFO - 127.0.0.1 - - [23/Apr/2025 20:44:34] "[35m[1mGET /tts/test.mp3?v=1745412274414 HTTP/1.1[0m" 206 -
+2025-04-24 14:57:44,083 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:2020
+2025-04-24 14:57:44,083 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 14:57:44,084 - werkzeug - INFO -  * Restarting with stat
+2025-04-24 14:57:45,485 - werkzeug - WARNING -  * Debugger is active!
+2025-04-24 14:57:45,489 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-24 19:22:05,412 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\AIBase.py', reloading
+2025-04-24 19:22:05,509 - werkzeug - INFO -  * Restarting with stat
+2025-04-24 19:22:06,971 - werkzeug - WARNING -  * Debugger is active!
+2025-04-24 19:22:06,975 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-24 19:22:18,255 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:22:18] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-24 19:22:18,499 - root - ERROR - Error calling DeepSeek API: Error code: 404 - {'error': {'message': 'model "deepseek-reasoner" not found, try pulling it first', 'type': 'api_error', 'param': None, 'code': None}}
+2025-04-24 19:22:18,499 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:22:18] "[35m[1mPOST /api/AI HTTP/1.1[0m" 500 -
+2025-04-24 19:22:35,084 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\AIBase.py', reloading
+2025-04-24 19:22:35,164 - werkzeug - INFO -  * Restarting with stat
+2025-04-24 19:22:36,635 - werkzeug - WARNING -  * Debugger is active!
+2025-04-24 19:22:36,640 - werkzeug - INFO -  * Debugger PIN: 815-382-215
+2025-04-24 19:22:36,650 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:22:36] "OPTIONS /api/AI HTTP/1.1" 200 -
+2025-04-24 19:22:57,137 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:22:57] "POST /api/AI HTTP/1.1" 200 -
+2025-04-24 19:23:01,109 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:23:01] "GET /dealAudio?file_name=test.mp3&voice=xiaoxiao&text=您好！根据您的症状，初步考虑可能是普通感冒、流感或其他病毒感染。建议：%0A1.%20多喝温水（每日至少8杯）%0A2.%20卧床休息保证充足睡眠%0A3.%20可服用布洛芬或对乙酰氨基酚退烧（按说明书剂量）%0A4.%20清淡饮食，适量补充维生素C%0A5.%20体温超过39℃持续24小时/出现呼吸困难/意识模糊时请立即就医%0A6.%20症状持续3天无改善请及时线下就诊%0A祝您早日康复！记得保持心情放松哦~ HTTP/1.1" 200 -
+2025-04-24 19:23:01,249 - werkzeug - INFO - 127.0.0.1 - - [24/Apr/2025 19:23:01] "[35m[1mGET /tts/test.mp3?v=1745493781111 HTTP/1.1[0m" 206 -
+2025-04-24 19:30:11,446 - werkzeug - INFO -  * Detected change in 'c:\\Users\\seal\\Desktop\\课\\大一下\\中医院拟真问诊\\test\\Realistic-Consultation-Back-End\\application\\ai.py', reloading
+2025-04-24 19:30:11,583 - werkzeug - INFO -  * Restarting with stat
